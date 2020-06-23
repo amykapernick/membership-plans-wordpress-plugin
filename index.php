@@ -6,4 +6,12 @@
  * Author: Amy Kapernick
  * Author URI: https://amyskapers.dev
  */
+
+	if(! defined('ABSPATH')) {
+		exit;
+	}
+
+	require_once(__DIR__ . '/src/blocks/plans/index.php');
+	require_once(__DIR__ . '/src/functions/plans_custom_post.php');
+
 ?>

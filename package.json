@@ -19,10 +19,16 @@
   },
   "homepage": "https://github.com/amykapernick/membership-plans-wordpress-plugin#readme",
   "dependencies": {
+    "@wordpress/api-fetch": "^3.17.0",
     "@wordpress/block-editor": "^4.1.0",
     "@wordpress/blocks": "^6.18.0",
     "@wordpress/components": "^9.8.0",
     "@wordpress/element": "^2.14.0",
-    "@wordpress/scripts": "^11.0.0"
+    "@wordpress/scripts": "^11.0.0",
+    "file-loader": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-zip": "^5.0.1",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^8.0.2"
   }
 }
