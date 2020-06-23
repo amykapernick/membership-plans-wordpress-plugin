@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "wp-scripts start --config webpack.config.js",
+    "build": "gulp sassy && wp-scripts build",
+    "sass": "gulp watch"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,12 @@
   "bugs": {
     "url": "https://github.com/amykapernick/membership-plans-wordpress-plugin/issues"
   },
-  "homepage": "https://github.com/amykapernick/membership-plans-wordpress-plugin#readme"
+  "homepage": "https://github.com/amykapernick/membership-plans-wordpress-plugin#readme",
+  "dependencies": {
+    "@wordpress/block-editor": "^4.1.0",
+    "@wordpress/blocks": "^6.18.0",
+    "@wordpress/components": "^9.8.0",
+    "@wordpress/element": "^2.14.0",
+    "@wordpress/scripts": "^11.0.0"
+  }
 }
