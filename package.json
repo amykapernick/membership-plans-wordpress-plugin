@@ -1,0 +1,19 @@
+{
+  "name": "membership-plans",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/amykapernick/membership-plans-wordpress-plugin.git"
+  },
+  "author": "Amy Kapernick <amy@aimhigherweb.design> (https://amyskapers.dev)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/amykapernick/membership-plans-wordpress-plugin/issues"
+  },
+  "homepage": "https://github.com/amykapernick/membership-plans-wordpress-plugin#readme"
+}
