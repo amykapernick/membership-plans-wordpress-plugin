@@ -15,6 +15,8 @@
 		 ['wp-blocks', 'wp-element', 'wp-editor', 'wp-components']
 	 );
 
+	 wp_enqueue_script( 'toggle-plans', plugins_url('../../js/togglePlans.js', __FILE__));
+
 	 register_block_type('membership/plans', array(
 		 'editor_script' => 'plans/editor-scripts'
 	 ));

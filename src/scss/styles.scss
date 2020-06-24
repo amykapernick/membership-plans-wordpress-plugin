@@ -1,0 +1,15 @@
+.plans {	
+	&[data-filter="individual"] {
+		.plan:not([data-type="individual"]) {
+			display: none;
+		}
+	}
+
+	&[data-filter="team"] {
+		.plan:not([data-type="team"]) {
+			display: none;
+		}
+	}
+}
+
+@import 'plan.scss'

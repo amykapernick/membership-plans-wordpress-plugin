@@ -1,0 +1,54 @@
+.plans {
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+	padding: 20px;
+	margin: 0;
+}
+
+.plan {
+	flex-grow: 1;
+	border: 2px solid var(--primary);
+	list-style: none;
+	padding: 20px 0 0;
+	margin: 20px;
+	text-align: center;
+	width: 40%;
+
+	svg {
+		width: 25px;
+	}
+
+	.price {
+		color: var(--secondary);
+		font-size: 3em;
+	}
+}
+
+.features {
+	text-align: left;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+
+	li {
+		display: flex;
+		align-items: center;
+		list-style: none;
+		padding: 10px;
+		margin: 0;
+
+		&:nth-child(2n - 1) {
+			background: var(--primary_light);
+		}
+
+		.feature {
+			width: 50%;
+		}
+
+		.value {
+			font-size: 0.9em;
+			margin-left: 10px;
+		}
+	}
+}
