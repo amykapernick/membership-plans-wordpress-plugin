@@ -13,6 +13,7 @@
 
 	require_once(__DIR__ . '/src/blocks/plans/index.php');
 	require_once(__DIR__ . '/src/functions/plans_custom_post.php');
+	require_once(__DIR__ . '/src/functions/acf.php');
 
 	add_action('enqueue_block_editor_assets', 'gutenberg_block_styles');
 
